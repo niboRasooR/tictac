@@ -350,7 +350,7 @@ function createBoard(size) {
         }
         for (let i = 0; i < b.length; i++) {
             while (b[i].length < size) {
-                console.log(" add empty to column " + i);
+                //  console.log(" add empty to column " + i);
                 b[i].push(EMPTY);
             }
         }
